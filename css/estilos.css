@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+
+::-webkit-scrollbar-track {
+    background: #4e4e4e;
+}
+  
+
+::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0);
+}
+  
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 0, 0);
+}
+
+body {
+    background-color: rgb(20, 20, 20);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu {
+    position: relative;
+    padding: 30px 50px;
+    background-color: black;
+}
+
+.logo {
+    position: absolute;
+    left: 50px;
+    right: 0;
+    text-align: left;
+    top: 21px;
+    font-family: arial;
+    font-size: 18px;
+    color: white;
+}
+
+.login {
+    position: absolute;
+    left: 0;
+    right: 50px;
+    text-align: right;
+    top: 22px;
+    font-family: arial;
+    font-size: 16px;
+    color: white;
+}
+
+.icon {
+    position: absolute;
+    left: 0;
+    right: 50px;
+    margin-left: auto;
+    top: 7px;
+    border-radius: 30px;
+    border: 3px solid rgb(46, 46, 46);
+    cursor: pointer;
+}
+
+.search {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 12px;
+    width: 500px;
+    height: 35px;
+    background-color: rgb(46, 46, 46);
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    font-family: arial;
+    font-size: 16px;
+    color: white;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 50px;
+    margin-left: auto;
+    top: 72px;
+    width: 180px;
+    padding: 20px;
+    background: rgb(20, 20, 20);
+    border: 1px solid rgb(46, 46, 46);
+    border-radius: 4px;
+}
+
+.sub-menu-info {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+.upload {
+    position: relative;
+    float: right;
+    margin-right: 70px;
+    bottom: 12px;
+    fill: white;
+}
+
+.opcoes-sub-menu {
+    margin-top: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    color: white;
+    list-style: none;
+}
+
+.destaque-banner {
+    pointer-events: none;
+    filter: brightness(70%);
+}
+
+.destaque-titulo-box {
+    position: absolute;
+    left: 50px;
+    right: 0;
+    margin-right: auto;
+    top: 300px;
+    width: 500px;
+    height: 200px;
+    background-color: transparent;
+    text-align: left;
+    font-family: arial;
+    font-size: 50px;
+    color: white;
+}
+
+.destaque-button {
+    margin-top: 10px;
+    width: 160px;
+    height: 50px;
+    background-color: transparent;
+    font-family: arial;
+    font-size: 20px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 300px;
+    cursor: pointer;
+}
+
+.destaque-button:hover {
+    background-color: rgba(255, 255, 255, 0.623);
+    color: black;
+    transition: .5s;
+}
+
+.menu-2 {
+    position: relative;
+    padding: 25px 50px;
+    background-color: black;
+}
+
+.opcoes-menu-2 {
+    position: relative;
+    left: 0;
+    right: 0;
+    float: left;
+    margin-left: 15px;
+    list-style: none;
+    bottom: 8px;
+    font-family: arial;
+    font-size: 16px;
+    color: white;
+}
+
+.resultados-pesquisa {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 50px;
+    font-family: arial;
+    font-size: 16px;
+    color: white;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.resultados-titulo {
+    position: absolute;
+    left: 0;
+    right: 1030px;
+    text-align: center;
+    top: 90px;
+    font-family: arial;
+    font-size: 18px;
+    color: white;
+}
+
+.resultados-box {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 130px;
+    width: 1265px;
+    padding: 0px;
+    background-color: transparent;
+}
+
+.resultados-capa {
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.resultados-capa:hover {
+    filter: brightness(80%);
+    transition: .5s;
+}
+
+.games-box-lancamentos {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 650px;
+    width: 1290px;
+    background-color: transparent;
+}
+
+.games-box-recentes {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 960px;
+    width: 1290px;
+    background-color: transparent;
+}
+
+.games-box-gratuito {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 1270px;
+    width: 1290px;
+    background-color: transparent;
+}
+
+.games-box-pago {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 1580px;
+    width: 1290px;
+    background-color: transparent;
+}
+
+.games-titulo {
+    position: absolute;
+    left: 30px;
+    right: 0;
+    text-align: left;
+    top: 10px;
+    font-family: arial;
+    font-size: 20px;
+    color: white;
+}
+
+.games-capa {
+    position: relative;
+    float: left;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.games-capa:hover {
+    filter: brightness(80%);
+    transition: .5s;
+}
+
+footer {
+    position: relative;
+    padding: 30px 50px;
+    background-color: rgb(46, 46, 46);
+    top: 1350px;
+    text-align: center;
+    font-family: arial;
+    font-size: 16px;
+    color: white;
+}
